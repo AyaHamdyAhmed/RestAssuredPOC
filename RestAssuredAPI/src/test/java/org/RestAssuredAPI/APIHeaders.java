@@ -28,5 +28,6 @@ public class APIHeaders {
             get(API.url).
         then().
             assertThat().contentType(ContentType.JSON);
+        // we can use  assertThat().contentType("application/json"); as postman
     }
 }

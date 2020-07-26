@@ -7,8 +7,4 @@ public class API
 	public String url() {
 		return url;
 	}
-    /*public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }*/
 }
