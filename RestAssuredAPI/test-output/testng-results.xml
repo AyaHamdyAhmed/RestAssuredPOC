@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-24T13:47:45 EET" name="Default suite" finished-at="2020-07-24T13:47:47 EET" duration-ms="1809">
+  <suite started-at="2020-07-26T17:05:04 EET" name="Default suite" finished-at="2020-07-26T17:05:07 EET" duration-ms="3637">
     <groups>
     </groups>
-    <test started-at="2020-07-24T13:47:45 EET" name="Default test" finished-at="2020-07-24T13:47:47 EET" duration-ms="1809">
+    <test started-at="2020-07-26T17:05:04 EET" name="Default test" finished-at="2020-07-26T17:05:07 EET" duration-ms="3637">
       <class name="org.RestAssuredAPI.ApiTest1NG">
-        <test-method signature="requestUsZipCode90210_checkPlaceName()[pri:0, instance:org.RestAssuredAPI.ApiTest1NG@c86b9e3]" started-at="2020-07-24T13:47:45 EET" name="requestUsZipCode90210_checkPlaceName" finished-at="2020-07-24T13:47:47 EET" duration-ms="1785" status="PASS">
+        <test-method signature="requestUsZipCode90210_checkCountryName()[pri:0, instance:org.RestAssuredAPI.ApiTest1NG@4c309d4d]" started-at="2020-07-26T17:05:04 EET" name="requestUsZipCode90210_checkCountryName" finished-at="2020-07-26T17:05:06 EET" duration-ms="2028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestUsZipCode90210_checkCountryName -->
+        <test-method signature="requestUsZipCode90210_checkListOfPlacesName()[pri:0, instance:org.RestAssuredAPI.ApiTest1NG@4c309d4d]" started-at="2020-07-26T17:05:06 EET" name="requestUsZipCode90210_checkListOfPlacesName" finished-at="2020-07-26T17:05:06 EET" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestUsZipCode90210_checkListOfPlacesName -->
+        <test-method signature="requestUsZipCode90210_checkPlaceName()[pri:0, instance:org.RestAssuredAPI.ApiTest1NG@4c309d4d]" started-at="2020-07-26T17:05:06 EET" name="requestUsZipCode90210_checkPlaceName" finished-at="2020-07-26T17:05:06 EET" duration-ms="348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- requestUsZipCode90210_checkPlaceName -->
+        <test-method signature="requestUsZipCode90210_checkPlaceState()[pri:0, instance:org.RestAssuredAPI.ApiTest1NG@4c309d4d]" started-at="2020-07-26T17:05:06 EET" name="requestUsZipCode90210_checkPlaceState" finished-at="2020-07-26T17:05:07 EET" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestUsZipCode90210_checkPlaceState -->
+        <test-method signature="requestUsZipCode90210_checkTheNumberOfPlaces()[pri:0, instance:org.RestAssuredAPI.ApiTest1NG@4c309d4d]" started-at="2020-07-26T17:05:07 EET" name="requestUsZipCode90210_checkTheNumberOfPlaces" finished-at="2020-07-26T17:05:07 EET" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestUsZipCode90210_checkTheNumberOfPlaces -->
+        <test-method signature="requestUsZipCode90210_logRequestAndResponseDetails()[pri:0, instance:org.RestAssuredAPI.ApiTest1NG@4c309d4d]" started-at="2020-07-26T17:05:07 EET" name="requestUsZipCode90210_logRequestAndResponseDetails" finished-at="2020-07-26T17:05:07 EET" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestUsZipCode90210_logRequestAndResponseDetails -->
       </class> <!-- org.RestAssuredAPI.ApiTest1NG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
