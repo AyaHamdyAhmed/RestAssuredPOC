@@ -6,7 +6,7 @@ import static org.hamcrest.Matchers.equalTo;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class APiWithDB {
+public class APiWithDP {
 
 	@DataProvider(name= "zipCodesWithPlaces")
 	public static Object[][] zipCodesWithPlaces() {
