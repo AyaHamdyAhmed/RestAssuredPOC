@@ -1,97 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-12T10:27:39 EET" name="Default suite" finished-at="2020-08-12T10:27:42 EET" duration-ms="3215">
+  <suite started-at="2020-08-12T14:32:37 EET" name="Default suite" finished-at="2020-08-12T14:32:42 EET" duration-ms="4867">
     <groups>
     </groups>
-    <test started-at="2020-08-12T10:27:39 EET" name="Default test" finished-at="2020-08-12T10:27:42 EET" duration-ms="3215">
-      <class name="org.RestAssuredAPI.APiWithDB">
-        <test-method signature="checkplaceName(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.RestAssuredAPI.APiWithDB@38102d01]" started-at="2020-08-12T10:27:39 EET" name="checkplaceName" data-provider="zipCodesWithPlaces" finished-at="2020-08-12T10:27:41 EET" duration-ms="2078" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[us]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[90210]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Beverly Hills]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2020-08-12T14:32:37 EET" name="Default test" finished-at="2020-08-12T14:32:42 EET" duration-ms="4867">
+      <class name="org.RestAssuredAPI.APIsTestWithCleanCode">
+        <test-method is-config="true" signature="createRequestSpecs()[pri:0, instance:org.RestAssuredAPI.APIsTestWithCleanCode@762ef0ea]" started-at="2020-08-12T14:32:37 EET" name="createRequestSpecs" finished-at="2020-08-12T14:32:38 EET" duration-ms="584" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkplaceName -->
-        <test-method signature="checkplaceName(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.RestAssuredAPI.APiWithDB@38102d01]" started-at="2020-08-12T10:27:41 EET" name="checkplaceName" data-provider="zipCodesWithPlaces" finished-at="2020-08-12T10:27:41 EET" duration-ms="281" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[us]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Schenectady]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- createRequestSpecs -->
+        <test-method is-config="true" signature="createResponseSpecification()[pri:0, instance:org.RestAssuredAPI.APIsTestWithCleanCode@762ef0ea]" started-at="2020-08-12T14:32:38 EET" name="createResponseSpecification" finished-at="2020-08-12T14:32:38 EET" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkplaceName -->
-        <test-method signature="checkplaceName(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.RestAssuredAPI.APiWithDB@38102d01]" started-at="2020-08-12T10:27:41 EET" name="checkplaceName" data-provider="zipCodesWithPlaces" finished-at="2020-08-12T10:27:41 EET" duration-ms="403" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ca]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[B2R]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Waverley]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- createResponseSpecification -->
+        <test-method signature="CheckReqestStatusCode()[pri:0, instance:org.RestAssuredAPI.APIsTestWithCleanCode@762ef0ea]" started-at="2020-08-12T14:32:38 EET" name="CheckReqestStatusCode" finished-at="2020-08-12T14:32:40 EET" duration-ms="1874" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkplaceName -->
-        <test-method signature="checkplaceName(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.RestAssuredAPI.APiWithDB@38102d01]" started-at="2020-08-12T10:27:41 EET" name="checkplaceName" data-provider="zipCodesWithPlaces" finished-at="2020-08-12T10:27:42 EET" duration-ms="415" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nl]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1001]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Amsterdam]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- CheckReqestStatusCode -->
+        <test-method signature="checkPlaceNameInResponseBody_withResponseSpec()[pri:0, instance:org.RestAssuredAPI.APIsTestWithCleanCode@762ef0ea]" started-at="2020-08-12T14:32:40 EET" name="checkPlaceNameInResponseBody_withResponseSpec" finished-at="2020-08-12T14:32:41 EET" duration-ms="1440" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkplaceName -->
-      </class> <!-- org.RestAssuredAPI.APiWithDB -->
+        </test-method> <!-- checkPlaceNameInResponseBody_withResponseSpec -->
+        <test-method signature="extractPlaceNameFromResponseBody()[pri:0, instance:org.RestAssuredAPI.APIsTestWithCleanCode@762ef0ea]" started-at="2020-08-12T14:32:41 EET" name="extractPlaceNameFromResponseBody" finished-at="2020-08-12T14:32:42 EET" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractPlaceNameFromResponseBody -->
+      </class> <!-- org.RestAssuredAPI.APIsTestWithCleanCode -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
