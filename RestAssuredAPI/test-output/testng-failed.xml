@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.RestAssuredAPI.ApiTest1NG">
+      <class name="org.RestAssuredAPI.APiWithDB">
         <methods>
-          <include name="f"/>
+          <include name="checkplaceName"/>
         </methods>
-      </class> <!-- org.RestAssuredAPI.ApiTest1NG -->
+      </class> <!-- org.RestAssuredAPI.APiWithDB -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
