@@ -6,6 +6,11 @@ import static org.hamcrest.Matchers.equalTo;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Step;
+@Epic("Test API Responses")
+@Feature("Test Places")
 public class APiWithDP {
 
 	@DataProvider(name= "zipCodesWithPlaces")
@@ -18,6 +23,7 @@ public class APiWithDP {
         };
     }
 	
+	@Step("Check place Name for: {0} & {1}")
 	@Test(dataProvider = "zipCodesWithPlaces")
 	public void checkplaceName(String Countrycode, String ZipCode, String ExpectedPlaceName) {
 		given().

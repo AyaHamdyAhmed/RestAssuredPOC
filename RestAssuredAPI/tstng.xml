@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Default suite" parallel="methods" verbose="4">
+	<test name="Allure reporting with TestNG tests" skipfailedinvocationcounts="false">
+		<classes>
+			<class
+				name="org.RestAssuredAPI.APIHeaders">
+				<methods>
+					<include name="requestUsZipCode90210_checkStatusCode" />
+					<include name="requestUsZipCode90210_checkContentType" />
+				</methods>
+			</class>
+			<class
+				name="org.RestAssuredAPI.APIsTestWithCleanCode">
+				<methods>
+				    <include name="createRequestSpecs" />
+					<include name="CheckReqestStatusCode" />
+					<include name="createResponseSpecification" />
+					<include name="checkPlaceNameInResponseBody_withResponseSpec" />
+					<include name="extractPlaceNameFromResponseBody" />	
+				</methods>
+			</class>
+			<class
+				name="org.RestAssuredAPI.ApiTest1NG">
+				<methods>
+					<include name="requestUsZipCode90210_logRequestAndResponseDetails" />
+					<include name="requestUsZipCode90210_checkCountryName" />
+					<include name="requestUsZipCode90210_checkListOfPlacesName" />
+					<include name="requestUsZipCode90210_checkTheNumberOfPlaces"/>
+					<include name="requestUsZipCode90210_checkPlaceState"/>				
+				</methods>
+			</class>
+			<class
+				name="org.RestAssuredAPI.APiWithDP">
+				<methods>
+					<include name="checkplaceName" />			
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -4,8 +4,12 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
 import classes.API;
-import org.testng.annotations.Test;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
 
+import org.testng.annotations.Test;
+@Epic("Test API Responses")
+@Feature("Test Places")
 public class ApiTest1NG {
 	
 	@Test

@@ -3,6 +3,9 @@ package org.RestAssuredAPI;
 import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
@@ -11,6 +14,8 @@ import io.restassured.specification.ResponseSpecification;
 import static org.hamcrest.Matchers.equalTo;
 import static io.restassured.RestAssured.given;
 
+@Epic("Test API Responses")
+@Feature("Test Places")
 public class APIsTestWithCleanCode {
 
 	private static RequestSpecification reqSpec;
@@ -33,7 +38,7 @@ public class APIsTestWithCleanCode {
 
   private static ResponseSpecification responseSpec;
 
-  @BeforeClass
+  @Test
   public static void createResponseSpecification() {
 
       responseSpec = new ResponseSpecBuilder().

@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Allure reporting with TestNG tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Allure reporting with TestNG tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 08 14:43:45 EET 2020</td>
+</tr>
+<tr><td>Total time:</td><td>4 seconds (4009 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.RestAssuredAPI.APIsTestWithCleanCode.CheckReqestStatusCode()'><b>CheckReqestStatusCode</b><br>Test class: org.RestAssuredAPI.APIsTestWithCleanCode</td>
+<td></td>
+<td>1</td>
+<td>org.RestAssuredAPI.APIsTestWithCleanCode@14f232c4</td></tr>
+<tr>
+<td title='org.RestAssuredAPI.APIsTestWithCleanCode.checkPlaceNameInResponseBody_withResponseSpec()'><b>checkPlaceNameInResponseBody_withResponseSpec</b><br>Test class: org.RestAssuredAPI.APIsTestWithCleanCode</td>
+<td></td>
+<td>1</td>
+<td>org.RestAssuredAPI.APIsTestWithCleanCode@14f232c4</td></tr>
+<tr>
+<td title='org.RestAssuredAPI.APiWithDP.checkplaceName()'><b>checkplaceName</b><br>Test class: org.RestAssuredAPI.APiWithDP<br>Parameters: us, 90210, Beverly Hills</td>
+<td></td>
+<td>0</td>
+<td>org.RestAssuredAPI.APiWithDP@24c22fe</td></tr>
+<tr>
+<td title='org.RestAssuredAPI.APiWithDP.checkplaceName()'><b>checkplaceName</b><br>Test class: org.RestAssuredAPI.APiWithDP<br>Parameters: us, 12345, Schenectady</td>
+<td></td>
+<td>0</td>
+<td>org.RestAssuredAPI.APiWithDP@24c22fe</td></tr>
+<tr>
+<td title='org.RestAssuredAPI.APiWithDP.checkplaceName()'><b>checkplaceName</b><br>Test class: org.RestAssuredAPI.APiWithDP<br>Parameters: ca, B2R, Waverley</td>
+<td></td>
+<td>0</td>
+<td>org.RestAssuredAPI.APiWithDP@24c22fe</td></tr>
+<tr>
+<td title='org.RestAssuredAPI.APiWithDP.checkplaceName()'><b>checkplaceName</b><br>Test class: org.RestAssuredAPI.APiWithDP<br>Parameters: nl, 1001, Amsterdam</td>
+<td></td>
+<td>0</td>
+<td>org.RestAssuredAPI.APiWithDP@24c22fe</td></tr>
+<tr>
+<td title='org.RestAssuredAPI.APIsTestWithCleanCode.createResponseSpecification()'><b>createResponseSpecification</b><br>Test class: org.RestAssuredAPI.APIsTestWithCleanCode</td>
+<td></td>
+<td>0</td>
+<td>org.RestAssuredAPI.APIsTestWithCleanCode@14f232c4</td></tr>
+<tr>
+<td title='org.RestAssuredAPI.APIsTestWithCleanCode.extractPlaceNameFromResponseBody()'><b>extractPlaceNameFromResponseBody</b><br>Test class: org.RestAssuredAPI.APIsTestWithCleanCode</td>
+<td></td>
+<td>1</td>
+<td>org.RestAssuredAPI.APIsTestWithCleanCode@14f232c4</td></tr>
+<tr>
+<td title='org.RestAssuredAPI.APIHeaders.requestUsZipCode90210_checkContentType()'><b>requestUsZipCode90210_checkContentType</b><br>Test class: org.RestAssuredAPI.APIHeaders</td>
+<td></td>
+<td>1</td>
+<td>org.RestAssuredAPI.APIHeaders@2415fc55</td></tr>
+<tr>
+<td title='org.RestAssuredAPI.ApiTest1NG.requestUsZipCode90210_checkCountryName()'><b>requestUsZipCode90210_checkCountryName</b><br>Test class: org.RestAssuredAPI.ApiTest1NG</td>
+<td></td>
+<td>0</td>
+<td>org.RestAssuredAPI.ApiTest1NG@13bc8645</td></tr>
+<tr>
+<td title='org.RestAssuredAPI.ApiTest1NG.requestUsZipCode90210_checkListOfPlacesName()'><b>requestUsZipCode90210_checkListOfPlacesName</b><br>Test class: org.RestAssuredAPI.ApiTest1NG</td>
+<td></td>
+<td>0</td>
+<td>org.RestAssuredAPI.ApiTest1NG@13bc8645</td></tr>
+<tr>
+<td title='org.RestAssuredAPI.ApiTest1NG.requestUsZipCode90210_checkPlaceState()'><b>requestUsZipCode90210_checkPlaceState</b><br>Test class: org.RestAssuredAPI.ApiTest1NG</td>
+<td></td>
+<td>0</td>
+<td>org.RestAssuredAPI.ApiTest1NG@13bc8645</td></tr>
+<tr>
+<td title='org.RestAssuredAPI.APIHeaders.requestUsZipCode90210_checkStatusCode()'><b>requestUsZipCode90210_checkStatusCode</b><br>Test class: org.RestAssuredAPI.APIHeaders</td>
+<td></td>
+<td>1</td>
+<td>org.RestAssuredAPI.APIHeaders@2415fc55</td></tr>
+<tr>
+<td title='org.RestAssuredAPI.ApiTest1NG.requestUsZipCode90210_checkTheNumberOfPlaces()'><b>requestUsZipCode90210_checkTheNumberOfPlaces</b><br>Test class: org.RestAssuredAPI.ApiTest1NG</td>
+<td></td>
+<td>0</td>
+<td>org.RestAssuredAPI.ApiTest1NG@13bc8645</td></tr>
+<tr>
+<td title='org.RestAssuredAPI.ApiTest1NG.requestUsZipCode90210_logRequestAndResponseDetails()'><b>requestUsZipCode90210_logRequestAndResponseDetails</b><br>Test class: org.RestAssuredAPI.ApiTest1NG</td>
+<td></td>
+<td>0</td>
+<td>org.RestAssuredAPI.ApiTest1NG@13bc8645</td></tr>
+</table><p>
+</body>
+</html>
